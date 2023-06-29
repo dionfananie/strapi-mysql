@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_qurbans",
+  "info": {
+    "singularName": "list-qurban",
+    "pluralName": "list-qurbans",
+    "displayName": "List Qurban"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "berat": {
+      "type": "decimal"
+    },
+    "tipe_qurban": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tipe-qurban.tipe-qurban"
+    },
+    "harga": {
+      "type": "string"
+    }
+  }
+}

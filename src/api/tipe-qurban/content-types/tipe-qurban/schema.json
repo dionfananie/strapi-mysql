@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipe_qurbans",
+  "info": {
+    "singularName": "tipe-qurban",
+    "pluralName": "tipe-qurbans",
+    "displayName": "Tipe Qurban",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_qurban": {
+      "type": "string"
+    },
+    "type": {
+      "type": "integer"
+    }
+  }
+}
