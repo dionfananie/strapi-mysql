@@ -9,15 +9,17 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.11.3",
-    "@strapi/plugin-users-permissions": "4.11.3",
+    "@strapi/plugin-graphql": "^4.11.3",
     "@strapi/plugin-i18n": "4.11.3",
-    "mysql": "2.18.1"
+    "@strapi/plugin-users-permissions": "4.11.3",
+    "@strapi/provider-upload-cloudinary": "^4.11.3",
+    "@strapi/strapi": "4.11.3",
+    "mysql": "2.18.1",
+    "strapi-blurhash": "^1.1.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Dion Fananie"
   },
   "strapi": {
     "uuid": "7d6858a6-d856-4164-b715-14dd14dbed84"

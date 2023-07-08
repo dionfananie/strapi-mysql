@@ -4,7 +4,8 @@
   "info": {
     "singularName": "list-qurban",
     "pluralName": "list-qurbans",
-    "displayName": "List Qurban"
+    "displayName": "List Qurban",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,16 @@
     },
     "harga": {
       "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
